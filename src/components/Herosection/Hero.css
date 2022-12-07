@@ -1,0 +1,15 @@
+/* .carousel { */
+    /* width: 80%; */
+    /* height: 10px;
+    margin-bottom: 80vh; */
+/* } */
+
+.heroSection {
+    margin-top: 2vh;
+}
+
+.carouselCaption {
+    font-weight: bolder;
+    background-color: #6C757D;
+    border-radius: 10px;
+}

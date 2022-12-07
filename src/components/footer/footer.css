@@ -1,0 +1,72 @@
+.footer {
+    background-color: #6C757D;
+    height: 60vh;
+    color: aliceblue;   
+    margin-top: 10rem;
+    /* border-radius: 10px; */
+}
+
+.footerDivs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+@media(max-width:800px) {
+.footer {
+        height: 80vh;
+        color: aliceblue;
+        margin-top: 5rem;
+    }
+    .footerDivs {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        justify-content: none;
+    }
+}
+
+.subFooterDiv {
+    margin: 1rem;
+    
+} 
+.subFooterDiv h3 {
+    font-weight: bolder;
+    color: aliceblue;
+}
+@media(max-width:755px) {
+    .subFooterDiv {
+        margin: 2rem;
+        text-align: start;
+}
+} 
+.socials li{
+    list-style: none;
+
+}
+
+.aboutUl a {
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.QuestionUl li {
+    list-style: none;
+    justify-content: left;
+}
+
+
+
+
+.copyrightDiv {
+    text-align: center;
+    margin-top: 5rem;
+}
+@media(max-width:755px) {
+    .copyrightDiv {
+        margin: 4rem;
+    }
+}

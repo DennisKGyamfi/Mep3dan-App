@@ -1,0 +1,33 @@
+.testimonialSection {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.testimonialSection h3 {
+    font-weight: 500px;
+    color: #6C757D;
+}
+
+.card-Section { 
+     width: 30rem; 
+    margin-top: 5vh;
+     display: flex;
+    justify-content: space-evenly;
+} 
+
+.cardImgSection { 
+    display: flex;
+    justify-content: space-around;
+} 
+
+.card-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #333;
+    margin-bottom: 1vh;
+    }
+
+ .card-title {
+        color: #6C757D;
+    }

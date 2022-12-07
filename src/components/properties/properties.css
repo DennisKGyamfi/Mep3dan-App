@@ -1,0 +1,24 @@
+.gallery {
+    text-align: center;
+}
+
+.galleryHeaderSection {
+    margin-top: 10vh;
+}
+
+.galleryHeader {
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+.properties {
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr)); 
+    flex-direction: row;
+     gap: 2rem;
+     margin: 1vh auto; 
+}
+
+button {
+align-items: center;
+}

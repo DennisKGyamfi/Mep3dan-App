@@ -1,0 +1,20 @@
+.statGrid {
+    margin: 0 auto;
+    /* text-align: center; */
+    line-height: 1.1em;
+    
+}
+
+.statGrid-div {
+    display: inline-block;
+    
+}
+ .number {
+    color:  #565E64;
+    font-size: 40px;
+}
+
+.statGrid-div span {
+    display: inline-block;
+    margin-left: 1em;
+}

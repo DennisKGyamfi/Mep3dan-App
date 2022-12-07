@@ -1,0 +1,52 @@
+.contactBanner {
+    color: black;
+    height: 50vh;
+}
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 15vh auto;
+}
+@media(max-width:700px) {
+.contact-section {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 15vh 2rem;
+    }
+}
+
+.contact-par {
+    color: #565E64;
+}
+
+
+/* form section */
+ .formSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-content: space-around; 
+    align-items: center;
+    flex-direction: row; 
+    height: 50vh;
+    gap: 1rem;
+    margin: 0 auto;
+} 
+
+.form {
+    background-color: #aeb3b8;
+    padding: 40px;
+    border-radius: 20px;
+    max-height: 500; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
+}
+
+.mb-3 {
+    width: 100%;
+    /* margin-left: 1rem; */
+}
+
